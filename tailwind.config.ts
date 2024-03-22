@@ -13,6 +13,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      boxShadow: {
+        custom: "0px 0px 20px #00000029",
+        button: "0px 0px 6px #00000029;",
+      },
     },
   },
   plugins: [],
