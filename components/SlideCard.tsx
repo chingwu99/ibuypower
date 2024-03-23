@@ -81,8 +81,7 @@ const SlideCard: React.FC<SlideCardProps> = ({ data }) => {
               <p className="flex  items-center">
                 Starting at
                 <span className="text-[#1694f5] mx-2">
-                  {" "}
-                  ${affirm.toLocaleString()}/mo{" "}
+                  ${affirm.toLocaleString()}/mo
                 </span>
                 with
                 <Image
